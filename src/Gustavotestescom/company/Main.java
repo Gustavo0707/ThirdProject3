@@ -43,7 +43,6 @@ public class Main {
 
         System.out.println("type your marital status (single, married, widowed, divorced) ");
         String status = scanner.nextLine();
-
         String single, married, widowed, divorced = scanner.next();
 
         while(valid = true == (status.equalsIgnoreCase("single") & status.equalsIgnoreCase("married")
